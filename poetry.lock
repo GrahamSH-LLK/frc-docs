@@ -1982,6 +1982,25 @@ sphinx = ">=4.0"
 docs = ["furo", "ipython", "myst-parser", "sphinx-copybutton", "sphinx-inline-tabs"]
 
 [[package]]
+name = "sphinx-build-compatibility"
+version = "0.0.1"
+description = "Sphinx extension to keep Read the Docs compatibility"
+optional = false
+python-versions = ">=3.8"
+files = []
+develop = false
+
+[package.dependencies]
+requests = "*"
+sphinx = ">=5"
+
+[package.source]
+type = "git"
+url = "https://github.com/readthedocs/sphinx-build-compatibility"
+reference = "HEAD"
+resolved_reference = "58aabc5f207c6c2421f23d3578adc0b14af57047"
+
+[[package]]
 name = "sphinx-copybutton"
 version = "0.5.2"
 description = "Add a copy button to each of your code cells."
@@ -2609,4 +2628,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "ae94f1f32312a704c8ee692ceaebb2ab8c5301adec5bcf42b47d0c898af28e33"
+content-hash = "478832324b6d8feb7b62ad9c4bb63d1fc387203f0c2f65f43d69d07748148b98"
